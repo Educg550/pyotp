@@ -36,6 +36,10 @@ We also recommend that implementers read the
 `NIST SP 800-63-3: Digital Authentication Guideline <https://pages.nist.gov/800-63-3/>`_ for a high level overview of
 authentication best practices.
 
+Disclaimer on Command-Line Interface (CLI) usage
+--------------------------------------------------------
+PyOTP is **NOT** a command-line interface (CLI). If you are looking for a CLI tool, this is not the right project. PyOTP is a **library** intended for use by other applications that provide a user interface, such as `3ncrypt0rQR <https://github.com/jonmalki/3ncypt0rQR>`_ or `pyotp_cli <https://github.com/jcjveraa/pyotp_cli>`_. While a CLI may be added in the future—see `Pull Request #159 <https://github.com/pyauth/pyotp/pull/159>`_—this is not the current focus of the project.
+
 Quick overview of using One Time Passwords on your phone
 --------------------------------------------------------
 
